@@ -1,0 +1,270 @@
+body {
+	margin: 0 !important;
+}
+
+main {
+	background-image: url('images/lines_2.png'), url('images/bg.png');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+/*.navbar-nav {
+	margin: 0 550px;
+}*/
+
+.rectangle {
+	padding: 0 !important;
+}
+
+.zoom {
+	color: white;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+.nav-link {
+	color: white !important;
+	font-size: 15px !important;
+	font-family: 'Montserrat', sans-serif !important;
+	margin: 10px !important;
+}
+
+.navalign {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Iphone {
+	position: relative;
+	top: 144px;
+	right: 50px;
+}
+.screenshot {
+	position: relative;
+	bottom: 704px;
+	left: 35px;
+}
+
+.col-xl-6, .col-xl-6 {
+	/*border: 1px solid black;*/
+	height: 900px;
+}
+
+/*copied css from the original file*/
+
+strong {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+.secondtext {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: white;
+	line-height: 1.7;
+}
+
+/*          buttons         */      
+
+.buttons {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 55px;
+}
+.download {
+	color: black;
+	border-style: solid;
+	border-color: white;
+	border-radius: 300px;
+	background-color: white;
+	width: 248px;
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.watch {
+	color: white;
+	border-style: solid;
+	border-color: white;
+	border-radius: 300px;
+	width: 248px;
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 12px;
+}
+.play {
+	margin-right: 12px;
+}
+
+/*copied part ends here (works perfectly woohoo!)*/
+
+/*additional stuff I edited out from original*/
+
+.paragraph {
+	padding-top: 240px;
+}
+
+/*ends here*/
+
+/*second section I copied from original css*/
+
+.secondsection {
+	background-color: rgb(52, 54, 58);
+	padding-top: 250px;
+	height: 778px;
+}
+.pictures, .partone{
+	width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.parttwo, .partthree{
+	width: 575px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.picturestwo {
+	padding-top: 150px;
+	width: 575px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.text {
+	padding-top: 25px;
+	padding-bottom: 7px;		
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.testing {
+	width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.text2 {
+	color: rgb(129,136,142);
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 17px;
+/*	width: 250px;
+	margin: 10px;*/
+	text-align: center;
+}
+.testing2 {
+	width: 575px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.panel {
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	margin: 0 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.secondsection2 {
+	display: flex;
+	max-width: 1150px;
+	width: 100%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.logo {
+	border: 1px solid grey;
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*part two ends here*/
+
+@media only screen and (max-width: 990px) {
+
+.navalign {
+	display: flex;
+	justify-content: center;
+}
+}
+
+@media only screen and (max-width: 856px) {
+
+.secondsection {
+	background-color: rgb(52, 54, 58);
+	height: 1078px;
+	padding-top: 80px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+
+.Iphone {
+	width: 369px;
+	height: 636px;
+	transform: translate(10%, 10%);
+}
+
+.screenshot {
+	width: 245px;
+	height: 437px;
+	position: relative;
+	bottom: 359px;
+	left: 44px;
+}
+.download {
+	font-size: 13px;
+}
+
+.watch {
+	font-size: 12px;
+}
+
+.secondsection {
+	background-color: rgb(52, 54, 58);
+	height: 1578px;
+	padding-top: 80px;
+}
+}
+
+@media only screen and (max-width: 360px) {
+
+.download {
+	font-size: 14px;
+}
+
+main, .secondsection {
+	width: 382px;
+}
+
+.watch {
+	padding-left: 18px;
+	font-size: 14px;
+}
